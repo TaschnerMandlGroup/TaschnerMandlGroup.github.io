@@ -3,17 +3,37 @@ layout: about
 title: About Me
 ---
 
-## Hello World, I’m Simon! 👋
-Welcome to my digital abode! I’m navigating the fascinating crossroads of Artificial Intelligence (AI) and medicine, currently deciphering the secrets of cell types and tumor images as a Ph.D. student in Vienna. My days are filled with exploration and discovery!
+# About Us
 
-I’ve embarked on this journey with a profound passion for the transformative power of AI in healthcare. Whether it’s delving into the details of MRI, CT scans, or the intricate world of biological imaging like IMC, FISH, and IF, I’m all in! My mission is to harness the potential of AI to bring forth groundbreaking advancements in medical diagnostics and treatment.
+## St. Anna Children's Cancer Research Institute - Neuroblastoma Research Group
 
-Education has been a thrilling ride for me! With a Master’s degree from the University of Tübingen and a Bachelor’s from the University of Applied Sciences Saar, I’ve had my fair share of learning, experimenting, and creating. From developing algorithms for endoscopes to estimating radiation doses with Deep Learning, every step has been an adventure!
+### Mission
+At the St. Anna Children's Cancer Research Institute, our Neuroblastoma Research Group is dedicated to advancing scientific understanding and developing innovative treatments for neuroblastoma, a complex and challenging childhood cancer. Our mission is fueled by a deep commitment to improve the outcomes and quality of life for children affected by this disease.
 
-A significant focus of my research is the exploration of uncertainties in deep learning. This area is intriguing as it delves into the reliability and trustworthiness of AI models, which is paramount in healthcare applications. Understanding and quantifying uncertainty helps in ensuring that the AI-driven decisions we rely on are not only accurate but also dependable and robust, especially when it comes to critical healthcare decisions.
+### Vision
+We envision a future where neuroblastoma is no longer a life-threatening condition but a curable disease. Through cutting-edge research, collaboration, and compassionate care, we strive to turn this vision into a reality.
 
-Tech wizardry and healthcare enthusiasm define my day-to-day life. I’m mixing and matching Python, PyTorch, Docker, and a dash of creativity in the Creative Cloud for some nice plots to cook up innovative solutions that bridge technology and healthcare. It’s a delightful blend of science and creativity, and I’m here for it!
+### Research Focus
+Our group specializes in exploring the biological underpinnings of neuroblastoma, delving into the molecular and cellular mechanisms that drive tumor growth and progression. Our multidisciplinary approach encompasses:
 
-Fancy a conversation about the wonders and complexities of AI, medical imaging, or just the latest in tech? Reach out on social media (/SGUTWEIN) or GitHub (/SimonBon). I’m always eager to connect, share stories, exchange ideas, and perhaps enjoy a virtual cup of coffee with new friends and fellow enthusiasts.
+- **Molecular Genetics:** Investigating genetic mutations and alterations that contribute to neuroblastoma development.
+- **Immunotherapy:** Developing and testing novel immunotherapeutic strategies to harness the body's immune system in fighting cancer cells.
+- **Drug Discovery:** Identifying and evaluating new therapeutic agents that can effectively target neuroblastoma cells.
+- **Clinical Trials:** Collaborating with clinicians to translate laboratory findings into innovative treatments and therapies for patients.
 
-Looking forward to meeting you and exploring the boundless possibilities of AI and medicine together!
+### Team
+Led by esteemed researchers and supported by a passionate team of scientists, clinicians, and staff, our group brings together a wealth of expertise and experience. We foster an environment of curiosity, innovation, and collaboration, believing that these are key to unlocking new breakthroughs in neuroblastoma research.
+
+### Impact
+Our work extends beyond the laboratory. We are deeply committed to patient advocacy, education, and community engagement. By sharing our knowledge and discoveries, we aim to raise awareness about neuroblastoma and support affected families.
+
+### Collaboration
+We believe in the power of collaboration and actively seek partnerships with other research institutions, hospitals, and organizations worldwide. Together, we can accelerate progress and make a meaningful difference in the fight against neuroblastoma.
+
+### Join Us
+If you are inspired by our mission and want to be a part of our quest to conquer neuroblastoma, we welcome your support. Whether through research collaborations, donations, or advocacy, your involvement can make a significant impact.
+
+---
+
+**St. Anna Children's Cancer Research Institute - Neuroblastoma Research Group:**
+Dedicated to Discovery. Committed to Care. United in the Fight Against Childhood Cancer.
