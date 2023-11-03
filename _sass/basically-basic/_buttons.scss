@@ -23,30 +23,6 @@
     background-color: shade($accent-color, 20%);
   }
 
-  .icon {
-    display: inline-block;
-    position: relative;
-    line-height: 2;
-    vertical-align: middle;
-    fill: currentColor;
-    margin-right: 0.5em;
-
-    // Include size definitions for icons
-    $icons: (
-      (stanna2, #deaf13, 4.5em, 2.5em, 0.5em),
-    );
-
-    @each $icon, $color, $width, $height, $top in $icons {
-      &--#{$icon} {
-        fill: $color;
-        width: $width; // Set the width based on $size
-        height: $height; // Set the height based on $size
-        top: $top
-      }
-    }
-  }
-
-
   /* block button fills width of parent container */
   &--block {
     display: block;
