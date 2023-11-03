@@ -34,17 +34,14 @@
 
     // Include size definitions for icons
     $icons: (
-      (bitbucket, #205081, 1em),
-      (codepen, #000, 0.85em),
-      (youtube, #cd201f, 1.5em),
-      (stanna2, #cd201f, 1.5em),
+      (stanna2, #deaf13, 4.5em, 2.5em),
     );
 
-    @each $icon, $color, $size in $icons {
+    @each $icon, $color, $width, $height in $icons {
       &--#{$icon} {
         fill: $color;
-        width: $size; // Set the width based on $size
-        height: $size; // Set the height based on $size
+        width: $width; // Set the width based on $size
+        height: $height; // Set the height based on $size
       }
     }
   }
