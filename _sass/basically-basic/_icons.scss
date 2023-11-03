@@ -16,7 +16,7 @@
     (bitbucket, #205081, 1em),
     (youtube, #cd201f, 1.5em),
     (stanna,  #cd201f, 10em),
-    (stanna2,  #cd201f, 10em),
+    (stanna2,  #d3bb03, 10em),
   );
 
   @each $icon, $color, $size in $icons {
