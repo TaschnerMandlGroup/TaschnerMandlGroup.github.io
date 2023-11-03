@@ -5,19 +5,11 @@
    .icon {
     display: inline-block;
     position: relative;
-    top: 0.5em;
-    width: 5em; // default width, can be overridden
-    height: 2.5em; // default height, can be overridden
+    width: 1.5em; // default width, can be overridden
+    height: 1.5em; // default height, can be overridden
     line-height: 2;
     vertical-align: middle;
     fill: currentColor;
-
-  $icons: (
-    (bitbucket, #205081, 1em),
-    (youtube, #cd201f, 1.5em),
-    (stanna,  #cd201f, 10em),
-    (stanna2,  #d3bb03, 10em),
-  );
 
   @each $icon, $color, $size in $icons {
     &--#{$icon} {
