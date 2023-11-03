@@ -2,18 +2,18 @@
    Icons
    ========================================================================== */
 
-.icon {
-  display: inline-block;
-  position: relative;
-  top: 0.5em;
-  width: 5em;
-  height: 2.5em;
-  line-height: 2;
-  vertical-align: middle;
-  fill: currentColor;
+   .icon {
+    display: inline-block;
+    position: relative;
+    top: 0.5em;
+    width: 5em; // default width, can be overridden
+    height: 2.5em; // default height, can be overridden
+    line-height: 2;
+    vertical-align: middle;
+    fill: currentColor;
 
   $icons: (
-    (bitbucket, #205081),
+    (bitbucket, #205081, 1em),
     (codepen, #000),
     (dribbble, #ea4c89),
     (email, #000),
@@ -32,12 +32,15 @@
     (tumblr, #36465d),
     (twitter, #1da1f2),
     (xing, #005a5f),
-    (youtube, #cd201f)
+    (youtube, #cd201f, 1.5em)
+    (stanna,  #cd201f, 10em)
   );
 
-  @each $icon, $color in $icons {
+  @each $icon, $color, $size in $icons {
     &--#{$icon} {
       fill: $color;
+      width: $size; // Apply the size for width
+      height: $size; // Apply the same size for height, or use a different value if needed
     }
   }
 }
