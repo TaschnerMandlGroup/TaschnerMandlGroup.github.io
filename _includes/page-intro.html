@@ -30,16 +30,17 @@
         <ul class="intro-actions">
             {% for action in page.actions %}
             <li>
-                <a href="{{ action.url }}" class="btn">
+              <a href="{{ action.url }}" class="btn">
                 {% if action.icon %}
-                    <span class="{% if action.size %}icon--{{ action.icon }}{% endif %}">
-                        {% include 'icons/icon-' | append: action.icon | append: '.svg' %}
-                    </span>
+                  <span class="{% if action.size %}icon--{{ action.size }}{% endif %}">
+                    {% capture icon_filename %}icon-{{ action.icon }}.svg{% endcapture %}
+                    {% include icons/icon_filename %}
+                  </span>
                 {% endif %}
                 {{ action.label }}
-                </a>
+              </a>
             </li>
-            {% endfor %}
+          {% endfor %}          
         </ul>
       {% endif %}
     </div>
