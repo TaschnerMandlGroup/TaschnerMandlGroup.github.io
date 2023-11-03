@@ -27,21 +27,22 @@
       {% endif %}
 
       {% if page.actions %}
-        <ul class="intro-actions">
-            {% for action in page.actions %}
-            <li>
-                <a href="{{ action.url }}" class="btn">
-                {% if action.icon %}
-                    <span class="{% if action.size %}icon--{{ action.icon }}{% endif %}">
-                    {% include icons/{{ action.icon | append: '.svg' }} %}
-                    </span>
-                {% endif %}
-                {{ action.label }}
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-      {% endif %}
+      <ul class="intro-actions">
+        {% for action in page.actions %}
+          <li>
+            <a href="{{ action.url }}" class="btn">
+              {% if action.icon %}
+                {% capture icon_name %}icon-{{ action.icon }}.svg{% endcapture %}
+                <span class="icon {% if action.size %}icon--{{ action.size }}{% endif %}">
+                  {% include icons/icon_name %}
+                </span>
+              {% endif %}
+              {{ action.label }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
     </div>
   </div>
 </header>
