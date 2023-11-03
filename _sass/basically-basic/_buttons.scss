@@ -24,31 +24,8 @@
   }
 
   .icon {
-    display: inline-block;
-    position: relative;
-    top: 0.5em;
-    line-height: 2;
-    vertical-align: middle;
-    fill: currentColor;
     margin-right: 0.5em;
-
-    // Include size definitions for icons
-    $icons: (
-      (bitbucket, #205081, 1em),
-      (codepen, #000, 0.85em),
-      (youtube, #cd201f, 1.5em),
-      (stanna2, #cd201f, 1.5em),
-    );
-
-    @each $icon, $color, $size in $icons {
-      &--#{$icon} {
-        fill: $color;
-        width: $size; // Set the width based on $size
-        height: $size; // Set the height based on $size
-      }
-    }
   }
-
 
   /* block button fills width of parent container */
   &--block {
