@@ -34,13 +34,13 @@
                 {% if action.icon %}
                   <span class="{% if action.size %}icon--{{ action.size }}{% endif %}">
                     {% capture icon_filename %}icon-{{ action.icon }}.svg{% endcapture %}
-                    {% include icons/icon_filename %}
+                    {% include icons/icon_filename with icon_filename %}
                   </span>
                 {% endif %}
                 {{ action.label }}
               </a>
             </li>
-          {% endfor %}          
+          {% endfor %}      
         </ul>
       {% endif %}
     </div>
