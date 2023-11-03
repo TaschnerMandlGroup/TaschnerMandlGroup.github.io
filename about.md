@@ -3,17 +3,33 @@ layout: about
 title: About Me
 ---
 
-## Hello World, I’m Simon! 👋
-Welcome to my digital abode! I’m navigating the fascinating crossroads of Artificial Intelligence (AI) and medicine, currently deciphering the secrets of cell types and tumor images as a Ph.D. student in Vienna. My days are filled with exploration and discovery!
+About Us<br>
 
-I’ve embarked on this journey with a profound passion for the transformative power of AI in healthcare. Whether it’s delving into the details of MRI, CT scans, or the intricate world of biological imaging like IMC, FISH, and IF, I’m all in! My mission is to harness the potential of AI to bring forth groundbreaking advancements in medical diagnostics and treatment.
+The Taschner-Mandl Group at the St. Anna Children's Cancer Research Institute (CCRI) stands at the forefront of pediatric oncology research, specifically focusing on neuroblastoma, the most common extracranial solid tumor in children. Under the leadership of Dr. Sabine Taschner-Mandl, our group is dedicated to unraveling the complexities of neuroblastoma pathogenesis and striving for the advancement of precision medicine to improve outcomes for children afflicted with malignant tumors.<br>
 
-Education has been a thrilling ride for me! With a Master’s degree from the University of Tübingen and a Bachelor’s from the University of Applied Sciences Saar, I’ve had my fair share of learning, experimenting, and creating. From developing algorithms for endoscopes to estimating radiation doses with Deep Learning, every step has been an adventure!
+Research Focus<br>
 
-A significant focus of my research is the exploration of uncertainties in deep learning. This area is intriguing as it delves into the reliability and trustworthiness of AI models, which is paramount in healthcare applications. Understanding and quantifying uncertainty helps in ensuring that the AI-driven decisions we rely on are not only accurate but also dependable and robust, especially when it comes to critical healthcare decisions.
+Our research endeavors are twofold:<br>
 
-Tech wizardry and healthcare enthusiasm define my day-to-day life. I’m mixing and matching Python, PyTorch, Docker, and a dash of creativity in the Creative Cloud for some nice plots to cook up innovative solutions that bridge technology and healthcare. It’s a delightful blend of science and creativity, and I’m here for it!
+Biology of High-Risk Neuroblastoma: We delve into the biology of high-risk neuroblastoma to understand the mechanics of this aggressive disease. Despite intense treatment protocols, survival rates for high-risk cases remain dismal. Our team utilizes cutting-edge CRISPR/Cas9 genome editing, single-cell genomics, and epigenomics to identify the drivers of oncogenesis and epigenetic dependencies. We develop preclinical patient-derived models for functional assays and drug testing, aiming to enhance clinical trial designs and treatment efficacies.
+Tumor Heterogeneity and Microenvironment: We investigate the heterogeneity within tumors and their interaction with various microenvironments. Our recent findings show significant genetic and expression differences between disseminated tumor cells and their primary tumors, which could lead to novel biomarkers and targeted therapies.<br>
 
-Fancy a conversation about the wonders and complexities of AI, medical imaging, or just the latest in tech? Reach out on social media (/SGUTWEIN) or GitHub (/SimonBon). I’m always eager to connect, share stories, exchange ideas, and perhaps enjoy a virtual cup of coffee with new friends and fellow enthusiasts.
+Translational Research<br>
 
-Looking forward to meeting you and exploring the boundless possibilities of AI and medicine together!
+In the realm of diagnostics, our group is pioneering the development of new diagnostic tools and prognostic markers. We are active participants in multiple consortia, facilitating collaboration between biological researchers, computer scientists, and pediatric oncologists to refine molecular profiling techniques and liquid biopsy methodologies. Our innovative VISIOMICS software platform exemplifies our commitment to integrating complex multi-dimensional data for enhanced tumor diagnostics.<br>
+
+Collaborations and Achievements<br>
+
+Our collaborative efforts extend to working closely with the Tumor Biology Diagnostic Team, providing ISO9001 certified diagnostic services as a national reference lab for several clinical studies. We also manage the CCRI Biobank for pediatric solid tumors in conjunction with Labdia, which is a testament to our comprehensive approach to research and patient care.<br>
+
+Our research is bolstered by grants from prestigious institutions such as the Austrian Science Fund (FWF) and the Vienna Science and Technology Fund (WWTF). Our impactful work is regularly featured in top-tier scientific journals, highlighting our contributions to understanding and treating neuroblastoma.<br>
+
+Dr. Sabine Taschner-Mandl, a luminary in the field, not only leads our research group with distinction but also imparts her knowledge as a lecturer and a collaborator in several high-profile international projects. Her commitment to pediatric oncology research is unwavering, as evidenced by her active roles in leading international societies and initiatives aimed at enhancing cancer treatment for children.<br>
+
+The Taschner-Mandl Group is more than a research team; we are a beacon of hope in the quest to conquer pediatric neuroblastoma.<br>
+
+For further information and inquiries:<br>
+Dr. Sabine Taschner-Mandl<br>
+Email: sabine.taschner@ccri.at<br>
+
+Join us in our mission to unravel neuroblastoma and to give children a fighting chance at life.<br>
