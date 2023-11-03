@@ -28,7 +28,10 @@ Dr. Sabine Taschner-Mandl, a luminary in the field, not only leads our research 
 The Taschner-Mandl Group is more than a research team; we are a beacon of hope in the quest to conquer pediatric neuroblastoma.
 
 For further information and inquiries:
+
 Dr. Sabine Taschner-Mandl
+
 Email: sabine.taschner@ccri.at
+
 
 Join us in our mission to unravel neuroblastoma and to give children a fighting chance at life.
