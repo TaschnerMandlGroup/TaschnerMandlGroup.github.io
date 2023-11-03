@@ -14,18 +14,9 @@ actions:
     url: "https://ccri.at/research-group/sabine-taschner-mandl-group/"
 ---
 
-<a href="https://gitlab.com/{{ include.username }}">
-    <span class="icon icon--stanna2">{% include icon-stanna2.svg %}</span>
-    <span class="label">{{ include.label | default: include.username }}</span>
-</a>
-
-<a href="your-link.html" class="btn">Click me</a>
-
-<!-- Button with an icon -->
 <a href="your-link.html" class="btn">
-    <span class="icon icon--stanna2">{% include icon-stanna2.svg %}</span>
-  Watch Video
-</a>
-
-<!-- Block level button -->
-<a href="your-link.html" class="btn btn--block">Full Width Button</a>
+    <svg class="icon icon--stanna2" viewBox="0 0 100 100"> <!-- Update the viewBox to match your SVG -->
+      <!-- Your SVG path for stanna2 icon goes here -->
+    </svg>
+    Button Text
+  </a>
