@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 lang: en-US
-title: Taschner-Mandl Group
-email: None
+title: Simon Gutwein
+email: simon.bonvino@gmail.com
 description: "Nothing to see here!"
 author:
-  name: Taschner-Mandl Group
+  name: Simon Gutwein
 github_username: SimonBon
 
 # # Liquid

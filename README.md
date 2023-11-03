@@ -1,1 +1,0 @@
-# TaschnerMandlGroup.github.io
