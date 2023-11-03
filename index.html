@@ -13,3 +13,8 @@ actions:
     icon: stanna2
     url: "https://ccri.at/research-group/sabine-taschner-mandl-group/"
 ---
+
+<a href="https://gitlab.com/{{ include.username }}">
+    <span class="icon icon--gitlab">{% include icon-gitlab.svg %}</span>
+    <span class="label">{{ include.label | default: include.username }}</span>
+</a>
