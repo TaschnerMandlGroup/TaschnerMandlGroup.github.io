@@ -13,15 +13,15 @@
     fill: currentColor;
 
   $icons: (
-    (bitbucket, #205081, 1.5em),
-    (youtube, #cd201f, 1.5em),
+    (stanna2, #bdb216, 4em, 2.5em, 0em),
   );
 
-  @each $icon, $color, $size in $icons {
+  @each $icon, $color, $width, $height, $top in $icons {
     &--#{$icon} {
       fill: $color;
-      width: $size; // Apply the size for width
-      height: $size; // Apply the same size for height, or use a different value if needed
+      width: $width; // Apply the size for width
+      height: $height; // Apply the same size for height, or use a different value if needed
+      top: $top
     }
   }
 }
