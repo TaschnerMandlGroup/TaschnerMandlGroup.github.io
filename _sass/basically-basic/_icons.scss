@@ -11,6 +11,11 @@
     vertical-align: middle;
     fill: currentColor;
 
+  $icons: (
+    (bitbucket, #205081, 1.5em),
+    (youtube, #cd201f, 1.5em),
+  );
+
   @each $icon, $color, $size in $icons {
     &--#{$icon} {
       fill: $color;
