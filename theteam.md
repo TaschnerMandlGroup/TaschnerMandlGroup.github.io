@@ -39,6 +39,69 @@ title: The Team
 </a>
 </div>
 
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
+<div class="team-member">
+<a href="{{ site.baseurl }}/persons/person-1-page.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
+
 </div>
 
 </body>
