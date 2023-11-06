@@ -1,6 +1,43 @@
 ---
-layout: about
+layout: post
 title: The Team
 ---
 
-## here is the team
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Team Members</title>
+<style>
+  .person {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* space between each person */
+  }
+
+  .person img {
+    width: 100px; /* fixed size or responsive as needed */
+    height: 100px;
+    margin-right: 20px; /* space between image and text */
+    border-radius: 50%; /* circular images */
+  }
+
+  .person .summary {
+    flex-grow: 1;
+  }
+</style>
+</head>
+<body>
+
+<div class="person">
+  <img src="path_to_image.jpg" alt="Person Name">
+  <div class="summary">
+    <p><strong>Person Name</strong></p>
+    <p>Summary of interests...</p>
+  </div>
+</div>
+
+<!-- Repeat the above div block for each person with their respective information -->
+
+</body>
+</html>
