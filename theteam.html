@@ -1,45 +1,84 @@
----
-layout: post
-title: The Team
----
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Team Members</title>
+<title>Image Carousel</title>
 <style>
-  .person {
-    display: flex;
+  .carousel-container {
+    position: relative;
+    max-width: 600px; /* Adjust as needed */
+    margin: auto;
+    overflow: hidden;
     align-items: center;
-    margin-bottom: 20px; /* space between each person */
-    width: 100%; /* Ensures the .person div takes the full width of the window */
-}
-
-  .person img {
-    width: 10%; /* fixed size or responsive as needed */
-    height: 10%;
-    margin-right: 20px; /* space between image and text */
-    border-radius: 50%; /* circular images */
+    display: flex;
+    justify-content: center;
+    height: 300px; /* Adjust as needed */
   }
-
-  .person .summary {
-    flex: 1; /* This will make the summary fill the remaining space */
+  
+  .carousel-track {
+    display: flex;
+    will-change: transform;
   }
-
+  
+  .carousel-img {
+    max-width: 100%;
+    transition: transform 0.5s ease;
+    user-select: none;
+    pointer-events: none;
+  }
 </style>
 </head>
 <body>
 
-<div class="person">
-  <img src="assets/images/small.png" alt="Simon Gutwein">
-  <div class="summary">
-    <p><strong>Simon Gutwein</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices auctor sapien id cursus. Aliquam maximus turpis in vehicula semper. Nullam a cursus sem. Duis eget neque fermentum, elementum felis eu, tincidunt justo. Vestibulum et turpis ac quam iaculis scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce sed commodo purus, non iaculis ligula. Proin non est nec odio hendrerit auctor at a leo. Pellentesque consequat, odio nec elementum interdum, libero mauris luctus eros, et condimentum urna urna eget libero. Suspendisse potenti. Curabitur vitae orci id orci placerat vehicula. Donec pellentesque ullamcorper metus et hendrerit.</p>
-  </div>
+<div id="carousel" class="carousel-container">
+  <!-- Images are added dynamically by JavaScript -->
 </div>
 
-<!-- Repeat the above div block for each person with their respective information -->
+<script>
+  // Data for the images
+  const images = ['assets/images/small.png', 'assets/images/small.png', 'assets/images/small.png']; // Add your images here
+  const imageWidth = 600; // Adjust to your images' width
+
+  const carousel = document.getElementById('carousel');
+  const track = document.createElement('div');
+  track.classList.add('carousel-track');
+  carousel.appendChild(track);
+
+  // Creating image elements and adding them to the track
+  images.forEach(src => {
+    const img = document.createElement('img');
+    img.src = src;
+    img.classList.add('carousel-img');
+    track.appendChild(img);
+  });
+
+  let isDragging = false, startPos = 0, currentTranslate = 0, prevTranslate = 0;
+
+  carousel.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startPos = e.clientX;
+    carousel.classList.add('grabbing');
+  });
+
+  window.addEventListener('mouseup', () => {
+    isDragging = false;
+    carousel.classList.remove('grabbing');
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (isDragging) {
+      const currentPos = e.clientX;
+      currentTranslate = prevTranslate + (currentPos - startPos);
+      track.style.transform = `translateX(${currentTranslate}px)`;
+    }
+  });
+
+  window.addEventListener('mouseleave', () => {
+    isDragging = false;
+    carousel.classList.remove('grabbing');
+  });
+</script>
 
 </body>
 </html>
