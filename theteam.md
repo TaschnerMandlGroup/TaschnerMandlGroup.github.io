@@ -6,20 +6,23 @@ title: The Team
 <style>
   .person-intro {
     display: flex;
-    align-items: center;
+    align-items: flex-start; /* Aligns the items to the start of the cross axis */
     margin-bottom: 20px; /* Spacing between each instance */
   }
 
   .person-intro img {
     width: 150px; /* Adjust the image size as needed */
+    height: 150px; /* Makes the image circular, should be the same as width */
+    border-radius: 50%; /* Circular shape */
     margin-right: 20px; /* Spacing between image and text */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
   }
 
   .person-intro .info {
     flex-grow: 1;
   }
 </style>
-</head>
+
 <body>
 
 <div class="person-intro">
