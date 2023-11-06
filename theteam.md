@@ -32,21 +32,12 @@ title: The Team
 
 <div class="team-grid">
   
-  <div class="team-member">
-    <a href="_persons/person-1-page.html">
-      <img src="assets/images/small.png" alt="Person 1">
-      <h3>Person 1</h3>
-    </a>
-  </div>
-
-  <div class="team-member">
-    <a href="_persons/person-1-page.html">
-      <img src="assets/images/small.png" alt="Person 2">
-      <h3>Person 2</h3>
-    </a>
-  </div>
-
-  <!-- Repeat the above block for each team member, adjusting the href to their dedicated page -->
+<div class="team-member">
+<a href="{{ site.baseurl }}/_persons/person-1.html">
+    <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
+    <h3>Person 1</h3>
+</a>
+</div>
 
 </div>
 
