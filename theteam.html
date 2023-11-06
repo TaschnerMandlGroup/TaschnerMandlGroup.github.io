@@ -16,15 +16,17 @@ title: The Team
   }
 
   .person img {
-    width: 100px; /* fixed size or responsive as needed */
-    height: 100px;
+    width: 200px; /* fixed size or responsive as needed */
+    height: 200px;
     margin-right: 20px; /* space between image and text */
     border-radius: 50%; /* circular images */
   }
 
   .person .summary {
-    flex-grow: 1;
+    flex-grow: 1; /* This ensures the summary takes the remaining space */
+    width: calc(100% - 120px); /* Optional: Explicitly set the width minus image width and margin */
   }
+  
 </style>
 </head>
 <body>
