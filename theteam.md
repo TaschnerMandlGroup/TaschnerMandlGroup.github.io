@@ -33,7 +33,7 @@ title: The Team
 <div class="team-grid">
   
 <div class="team-member">
-<a href="{{ site.baseurl }}/_persons/person-1.html">
+<a href="{{ site.baseurl }}/_persons/person-1-page.html">
     <img src="{{ site.baseurl }}/assets/images/small.png" alt="Person 1">
     <h3>Person 1</h3>
 </a>
