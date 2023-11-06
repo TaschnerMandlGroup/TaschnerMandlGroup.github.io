@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .image {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard syntax */
+  }
+  
+  #image-track > .image {
+    width: 25vmin;
+    height: 40vmin;
+    object-fit: cover;
+    object-position: center center;
+  }
+  
+  #image-track {
+    display: flex;
+    gap: 4vmin; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#prevPercentageDisplay {
+    position: absolute;
+    top: 10px; /* Adjust as necessary */
+    left: 10px; /* Adjust as necessary */
+    color: white; /* Choose a color that stands out against your background */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px;
+    border-radius: 5px;
+}
