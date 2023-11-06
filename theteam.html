@@ -13,7 +13,8 @@ title: The Team
     display: flex;
     align-items: center;
     margin-bottom: 20px; /* space between each person */
-  }
+    width: 100%; /* Ensures the .person div takes the full width of the window */
+}
 
   .person img {
     width: 200px; /* fixed size or responsive as needed */
@@ -23,7 +24,7 @@ title: The Team
   }
 
   .person .summary {
-    width: calc(100% - 120px); /* Optional: Explicitly set the width minus image width and margin */
+    flex: 1; /* This will make the summary fill the remaining space */
   }
 
     body, h1, p {
