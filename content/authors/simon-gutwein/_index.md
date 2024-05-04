@@ -29,7 +29,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: Insert a short bio that is displayed in the user profile at the end of a post.
 
-interests:
+# interests:
 
 
 
