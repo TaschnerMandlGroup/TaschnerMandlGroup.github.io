@@ -60,11 +60,11 @@ a.btn[href="#main-content"] {
   display: inline-block;
   font-size: 2rem;
   background: none;
-  border: none;
+  border: 2px solid #f4b562;
   cursor: pointer;
   text-decoration: none;
   transition: transform 0.5s ease;
-  color: #f4b562;
+  color: #313066 !important;
 
   &:active {
     background: none;
@@ -73,6 +73,7 @@ a.btn[href="#main-content"] {
   }
 
   &:hover {
-    transform: translateY(3px);
+    transform: translateY(5px);
+    color: #f4b562 !important;
   }
 }
