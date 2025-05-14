@@ -3,7 +3,6 @@ title:
 date: 2022-10-24
 type: landing
 
-sections:
   - block: slider
     content:
       slides:
@@ -16,8 +15,9 @@ sections:
             position: center
             color: '#313066'
           link:
-            text: v
+            text: "▼"
             url: "#main-content"
+            class: scroll-down-button
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
