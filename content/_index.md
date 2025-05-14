@@ -15,6 +15,9 @@ sections:
               filename: logo_single_expanded.svg
             position: center
             color: '#313066'
+          link:
+            text: v
+            url: "#main-content"
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
@@ -26,6 +29,7 @@ sections:
 
   #- block: custom
   #  content: |
+
   #    <div style="text-align: center; margin-top: -50px;">
   #      <a href="#main-content" class="btn btn-primary">Scroll Down</a>
   #    </div>
