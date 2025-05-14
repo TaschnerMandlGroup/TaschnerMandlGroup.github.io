@@ -24,11 +24,11 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 2000
 
-  - block: custom
-    content: |
-      <div style="text-align: center; margin-top: -50px;">
-        <a href="#main-content" class="btn btn-primary">Scroll Down</a>
-      </div>
+  #- block: custom
+  #  content: |
+  #    <div style="text-align: center; margin-top: -50px;">
+  #      <a href="#main-content" class="btn btn-primary">Scroll Down</a>
+  #    </div>
 
   - block: markdown
     id: main-content
