@@ -15,7 +15,7 @@ type: landing
             position: center
             color: '#313066'
           link:
-            text: "▼"
+            text: v #"▼"
             url: "#main-content"
             class: scroll-down-button
     design:
