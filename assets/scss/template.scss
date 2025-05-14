@@ -66,6 +66,7 @@ a[href="#main-content"] {
   color: #313066 !important;
   background: none !important;
   box-shadow: none !important;
+  transform: translateY(25%);
 
   &:hover {
     transform: translateY(5px);
