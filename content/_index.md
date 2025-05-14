@@ -38,7 +38,7 @@ sections:
       # Duration of transition between slides (in ms)
       interval: 2000
 
-  - this block is just to make the site invalid
+- this block is just to make the site invalid
 
   - block: markdown
     id: main-content
