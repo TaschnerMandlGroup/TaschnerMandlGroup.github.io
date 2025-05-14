@@ -55,7 +55,7 @@ div#search-box input.form-control:focus {
   box-shadow: 0 0 0 0.2rem #f4b562 !important;
 }
 
-#scroll-down-button {
+a.btn.btn-light.btn-lg.mt-3 {
   display: inline-block;
   font-size: 2rem;
   color: white;
@@ -67,6 +67,6 @@ div#search-box input.form-control:focus {
   transition: transform 0.3s ease;
 }
 
-#scroll-down-button:hover {
+a.btn.btn-light.btn-lg.mt-3:hover {
   transform: translateY(5px);
 }
