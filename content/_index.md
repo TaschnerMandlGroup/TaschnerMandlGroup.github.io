@@ -1,8 +1,7 @@
 ---
 title:
-date: 2022-10-24
+date: 2025-05-14
 type: landing
-
   - block: slider
     content:
       slides:
@@ -14,6 +13,10 @@ type: landing
               filename: logo_single_expanded.svg
             position: center
             color: '#313066'
+          link:
+            text: ▼
+            url: "#main-content"
+            class: scroll-down-button
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
