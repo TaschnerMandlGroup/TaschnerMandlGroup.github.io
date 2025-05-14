@@ -18,6 +18,7 @@ sections:
           link:
             text: v
             url: "#main-content"
+            class: scroll-down-button
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
