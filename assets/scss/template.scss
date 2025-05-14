@@ -55,18 +55,20 @@ div#search-box input.form-control:focus {
   box-shadow: 0 0 0 0.2rem #f4b562 !important;
 }
 
-a.btn.btn-light.btn-lg.mt-3 {
+
+a.btn[href="#main-content"] {
   display: inline-block;
   font-size: 2rem;
   color: white;
   background: none;
   border: none;
-  margin-top: 100px;
   cursor: pointer;
   text-decoration: none;
   transition: transform 0.3s ease;
-}
-
-a.btn.btn-light.btn-lg.mt-3:hover {
+  color: #f4b562 !important;
   transform: translateY(5px);
+
+  &:hover {
+    transform: translateX(-50%) translateY(5px);
+  }
 }
