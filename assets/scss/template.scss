@@ -59,15 +59,20 @@ div#search-box input.form-control:focus {
 a.btn[href="#main-content"] {
   display: inline-block;
   font-size: 2rem;
-  color: white;
   background: none;
   border: none;
   cursor: pointer;
   text-decoration: none;
   transition: transform 0.5s ease;
-  color: #f4b562 !important;
+  color: #f4b562;
+
+  &:active {
+    background: none;
+    border: none;
+    text-decoration: none;
+  }
 
   &:hover {
-    transform: translateX(-100px) translateY(100px);
+    transform: translateY(3px);
   }
 }
