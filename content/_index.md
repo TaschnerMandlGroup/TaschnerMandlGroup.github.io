@@ -1,7 +1,9 @@
 ---
 title:
-date: 2025-05-14
+date: 2022-10-24
 type: landing
+
+sections:
   - block: slider
     content:
       slides:
@@ -14,9 +16,8 @@ type: landing
             position: center
             color: '#313066'
           link:
-            text: ▼
+            text: v
             url: "#main-content"
-            class: scroll-down-button
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
