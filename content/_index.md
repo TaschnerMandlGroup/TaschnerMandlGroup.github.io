@@ -4,7 +4,6 @@ date: 2022-10-24
 type: landing
 
 sections:
-- block: srzuzfiugkgz
   - block: slider
     content:
       slides:
@@ -38,8 +37,6 @@ sections:
       loop: false
       # Duration of transition between slides (in ms)
       interval: 2000
-
-- this block is just to make the site invalid
 
   - block: markdown
     id: main-content
