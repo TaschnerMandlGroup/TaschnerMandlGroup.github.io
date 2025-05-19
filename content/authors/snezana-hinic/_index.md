@@ -27,16 +27,16 @@ role: Research Assistant
 #    url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert a short bio that is displayed in the user profile at the end of a post.
+bio: #Insert a short bio that is displayed in the user profile at the end of a post.
 
 interests:
 
 
 education:
-  courses:
-    - course: Example course
-      institution: University
-      year: year
+  #courses:
+  #  - course: Example course
+  #    institution: University
+  #    year: year
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -70,4 +70,18 @@ user_groups:
   - Members
 ---
 
-It is possible to add a larger text here, describing yourself or your work, etc.
+## Get to know me
+
+**If you weren’t doing science, what would you be doing instead?**
+
+I would travel the world as much as possible and do crafty things, like being a pottery artist or a tailor. I would probably want to share my ideas with others, so I would make videos about this or teach classes.
+
+
+**If you could have a scientific brainstorming session with any famous person (dead or alive), who would it be?**
+
+I would like to brainstorm with Rosalind Franklin. Her work was instrumental in the discovery of the molecular structure of DNA, and ever since I first learned about her, I was very inspired.
+
+
+**What piece of lab equipment best represents your personality?**
+
+I think a multi-channel pipette would be a good representation of my personality. It can do things efficiently and precisely, but sometimes it needs re-calibration :D As a bonus, I would add a notebook with a to-do list, as I am half a woman/half a to-do list :D

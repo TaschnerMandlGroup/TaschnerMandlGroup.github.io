@@ -27,16 +27,16 @@ role: Technical Assistant
 #    url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert a short bio that is displayed in the user profile at the end of a post.
+bio: #Insert a short bio that is displayed in the user profile at the end of a post.
 
 interests:
 
 
 education:
-  courses:
-    - course: Example course
-      institution: University
-      year: year
+  #courses:
+  #  - course: Example course
+  #    institution: University
+  #    year: year
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -70,4 +70,18 @@ user_groups:
   - Members
 ---
 
-It is possible to add a larger text here, describing yourself or your work, etc.
+## Get to know me
+
+**If you weren’t doing science, what would you be doing instead?**
+
+I’m very fascinated by animation movies and the techniques that are used in the field to obtain a certain result, besides liking to draw, paint and do artsy stuff in my free time. Thus, I think I will be an animator if I wasn’t doing science.
+
+
+**What completely absurd research project would you start immediately if money wasn’t an issue?**
+
+Tattoo ink that is visible only when induced (e.g., with a specific drug). It would be absurdly cool to have ink that contains a gene that enters your cells when skin is tattooed and expresses colored and fluorescent molecules on demand, so you can decide when you want to show a tattoo or not! It would be hard to have a consistent tattoo design in time due to cell renewal, but that’s one reason why money shouldn’t be an issue for this project.
+
+
+**What’s the most useless piece of knowledge you know but still want to share?**
+
+Male platypuses have an extra claw on their rear paws that can release venom, which they use to fight other animals and among each other when in competition! :D

@@ -27,16 +27,16 @@ role: PhD Student
 #    url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert a short bio that is displayed in the user profile at the end of a post.
+bio: #Insert a short bio that is displayed in the user profile at the end of a post.
 
 interests:
 
 
 education:
-  courses:
-    - course: Example course
-      institution: University
-      year: year
+  #courses:
+  #  - course: Example course
+  #    institution: University
+  #    year: year
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -70,4 +70,18 @@ user_groups:
   - Members
 ---
 
-It is possible to add a larger text here, describing yourself or your work, etc.
+## Get to know me
+
+**If you weren’t doing science, what would you be doing instead?**
+
+Investigative journalism.
+
+
+**What’s the most useless piece of knowledge you know but still want to share?**
+
+Bumblebees regulate nest temperature by shivering their flight muscles to generate heat or fanning their wings to cool it.
+
+
+**What piece of lab equipment best represents your personality?**
+
+A multichannel pipette, as it's doing ten things at once (almost precisely).

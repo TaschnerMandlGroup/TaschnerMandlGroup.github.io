@@ -27,16 +27,16 @@ role: PhD Student
 #    url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert a short bio that is displayed in the user profile at the end of a post.
+bio: #Insert a short bio that is displayed in the user profile at the end of a post.
 
 interests:
 
 
 education:
-  courses:
-    - course: Example course
-      institution: University
-      year: year
+  #courses:
+  #  - course: Example course
+  #    institution: University
+  #    year: year
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -69,5 +69,3 @@ highlight_name: false
 user_groups:
   - Members
 ---
-
-It is possible to add a larger text here, describing yourself or your work, etc.

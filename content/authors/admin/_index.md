@@ -28,7 +28,7 @@ role: Software Developer
 #    url: 'https://fh-ooe.at/en/campus-hagenberg?campus=hagenberg'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My field of work includes software development and image processing.
+bio: #My field of work includes software development and image processing.
 
 interests:
   - Deep Learning
@@ -71,10 +71,12 @@ user_groups:
 
 ## Get to know me
 
-**1. Test question 1:**
+**If you weren’t doing science, what would you be doing instead?**
 
-This is the answer to question 1... Lorem ipsum dolor...
+I’d like to try my hand at being a DJ or music producer. I’ve always loved music, and I have a habit of complaining about the DJs at bars and clubs — so trying it myself seems like an interesting alternative career path!
 
-**2. Test question 2:**
 
-This is the answer to question 2... Lorem ipsum dolor blablablabal blablabla...
+**What’s the weirdest or funniest thing that has ever happened to you in a lab?**
+
+At a previous workplace, the server once overheated and triggered its emergency cooling system. Curious about the strange noises coming from the server room, we opened the door only to discover a shower of ice cubes raining down from the ceiling. Apparently, that was the system’s idea of rapid cooling!
+

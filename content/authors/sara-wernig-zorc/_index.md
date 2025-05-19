@@ -27,16 +27,16 @@ role: Postdoctoral Fellow
 #    url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: Insert a short bio that is displayed in the user profile at the end of a post.
+bio: #Insert a short bio that is displayed in the user profile at the end of a post.
 
 interests:
 
 
 education:
-  courses:
-    - course: Example course
-      institution: University
-      year: year
+  #courses:
+  #  - course: Example course
+  #    institution: University
+  #    year: year
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -70,4 +70,18 @@ user_groups:
   - Members
 ---
 
-It is possible to add a larger text here, describing yourself or your work, etc.
+## Get to know me
+
+**If you weren’t doing science, what would you be doing instead?**
+
+I would be a writer. I actually wrote a fictional story when I was younger, though I never showed it to anyone. I was always good at writing assays (both in Slovenian and English language) and it's something I really enjoy doing. 
+
+
+**Which sci-fi movie setting would you love to become reality and why?**
+
+Definitely Star trek! Because it represents a world of equality between different races and species and a world of scientific wonder and exploration. That kind of hopeful, collaborative world really appeals to me. 
+
+
+**Which scientific tool or lab equipment would you take to a lonely island – and why?**
+
+I’d take the Nanopore long-read sequencer (such as the MinION). That way, I could sequence all the plants and animals on the island. It would keep me busy, and I would have loads of interesting data to work on once I got back home.
