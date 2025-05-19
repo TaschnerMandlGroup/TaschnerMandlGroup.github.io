@@ -36,7 +36,7 @@ sections:
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 1500
+      interval: 10000
 
   - block: markdown
     id: main-content
