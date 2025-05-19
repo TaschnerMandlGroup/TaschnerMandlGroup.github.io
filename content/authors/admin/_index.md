@@ -12,7 +12,7 @@ first_name: Matthias
 last_name: Kellner
 
 # Username (this should match the folder name)
-# For some reason it is mandatory at all times that one author is named 'admin'. Changing this breaks the page
+# For some reason it is mandatory at all times that one author is named 'admin'. Changing this breaks the page.
 authors:
   - admin
 
@@ -31,14 +31,14 @@ role: Software Developer
 bio: #My field of work includes software development and image processing.
 
 interests:
-  - Deep Learning
-  - Computer Vision
+  #- Deep Learning
+  #- Computer Vision
 
 education:
-  courses:
-    - course: BSc in Software Engineering
-      institution: University of Applied Sciences Hagenberg
-      year: 2023
+  #courses:
+  #  - course: BSc in Software Engineering
+  #    institution: University of Applied Sciences Hagenberg
+  #    year: 2023
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -51,9 +51,9 @@ social:
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/matthiaskellner
+#  - icon: github
+#    icon_pack: fab
+#    link: https://github.com/matthiaskellner
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
