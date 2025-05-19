@@ -78,5 +78,9 @@ I’d like to try my hand at being a DJ or music producer. I’ve always loved m
 
 **What’s the weirdest or funniest thing that has ever happened to you in a lab?**
 
-At a previous workplace, the server once overheated and triggered its emergency cooling system. Curious about the strange noises coming from the server room, we opened the door only to discover a shower of ice cubes raining down from the ceiling. Apparently, that was the system’s idea of rapid cooling!
+At a previous workplace, the server once overheated and triggered its emergency cooling system. Curious about the strange noises coming from the server room, we opened the door only to discover a shower of ice cubes raining down from the ceiling. Apparently, that was the system’s method of rapid cooling!
 
+
+**Which scientific mystery would you love to see solved in your lifetime?**
+
+Teleportation. How can it be done? And if I teleport somewhere, is it really me that arrives or just a clone? If so, what happened to the old me? o\_o
