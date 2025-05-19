@@ -5,21 +5,21 @@
 ############################################################
 
 # Display name
-title: Daria Lazic
+title: Snezana Hinic
 
 # Full Name (for SEO)
-first_name: Daria
-last_name: Lazic
+first_name: Snezana
+last_name: Hinic
 
 # Username (this should match the folder name) -> used to mark user as the author of a post
 authors:
-  - daria-lazic
+  - snezana-hinic
 
 # Is this the primary user of the site? (default false)
 superuser: false
 
 # Role/position -> listed below the name (in peoples tab or under articles/events)
-role: PhD Student
+role: Research Assistant
 
 # Organizations/Affiliations
 #organizations:
@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:daria.lazic@ccri.at'
+    link: 'mailto:snezana.hinic@ccri.at'
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
