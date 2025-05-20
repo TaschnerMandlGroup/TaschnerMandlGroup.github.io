@@ -25,6 +25,7 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 
 tags:
 - Source Themes
+
 featured: false
 
 links:
@@ -60,6 +61,8 @@ projects:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 slides: example
+
+sharing: false
 ---
 
 {{% callout note %}}
