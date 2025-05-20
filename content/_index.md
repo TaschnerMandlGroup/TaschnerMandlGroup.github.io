@@ -53,8 +53,8 @@ sections:
     content:
       title:
       text: >
-        <div style="display: flex; align-items: flex-start; gap: 2rem;">
-          <div style="flex: 1; display: flex; align-items: center !important; justify-content: center !important;">
+        <div style="display: flex; align-items: flex-start; gap: 2rem; margin: 2rem 0 2rem 0;">
+          <div style="flex: 1; margin: 0 0 0 0;">
             <img src="/uploads/fig1.jpg" style="max-width: 100%; height: auto; border-radius: 4px;" />
           </div>
           <div style="flex: 2;">
@@ -67,12 +67,12 @@ sections:
     content:
       title:
       text: >
-        <div style="display: flex; align-items: flex-start; gap: 2rem;">
+        <div style="display: flex; align-items: flex-start; gap: 2rem; margin: 2rem 0 2rem 0;">
           <div style="flex: 2;">
             <h3 style="margin-top: 0.5rem;">Tumour heterogeneity and microenvironment</h3>
             <p style="font-size: 80%;">Solid tumours often consist of different subpopulations of cells that harbor distinct genotypes and phenotypes. This results in a variation of clinically important features such as the abundance of prognostic markers and therapeutic targets, leading to differential levels of treatment sensitivity. Tumour cell metastasis and adaptation to new tissue microenvironments can further promote <strong>inter- and intratumour heterogeneity</strong> among metastasizing and disseminated tumour cells. In support of this notion, we have recently shown that disseminated tumour cells in the bone marrow substantially differ from the tumour they originated from in regards to their genetic makeup and expression programs. Tumour cells disseminate to the bone marrow in various solid cancers such as neuroblastoma, breast cancer and Ewing sarcoma, which is associated with poor outcome. In the majority of metastatic neuroblastoma patients, disseminated tumour cells are present in the bone marrow already at the time point of diagnosis. Our aim is to capture the full spectrum of tumor cells in neuroblastoma and to understand their <strong>interaction with the tumor microenvironment</strong> at the primary site and in the metastatic bone marrow by using novel single-cell-omics and multiplex imaging technologies. This will allow us to identify new biomarkers and to develop better therapeutics for targeted treatment.</p>
           </div>
-          <div style="flex: 1; display: flex; align-items: center !important; justify-content: center !important;">
+          <div style="flex: 1; margin: 0 0 0 0;">
             <img src="/uploads/fig2.jpg" style="max-width: 100%; height: auto; border-radius: 4px;" />
           </div>
         </div>
@@ -81,8 +81,8 @@ sections:
     content:
       title:
       text: >
-        <div style="display: flex; align-items: flex-start; gap: 2rem;">
-          <div style="flex: 1; display: flex; align-items: center !important; justify-content: center !important;">
+        <div style="display: flex; align-items: flex-start; gap: 2rem; margin: 2rem 0 2rem 0;">
+          <div style="flex: 1; margin: 0 0 0 0;">
             <img src="/uploads/fig3.jpg" style="max-width: 100%; height: auto; border-radius: 4px;" />
           </div>
           <div style="flex: 2;">
